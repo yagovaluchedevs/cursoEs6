@@ -26,7 +26,7 @@ const usuario = {
 	idade: 19
 };
 
-function mostraInfo({ nome, idade } = usuario) {
+function mostraInfo({ nome, idade }) {
 	return `${nome} tem ${idade} anos.`;
 }
-console.log(mostraInfo());
+console.log(mostraInfo(usuario));

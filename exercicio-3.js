@@ -41,7 +41,7 @@ const promise = () => {
 };
 
 // const promise = function() {
-//  return new Promise(function(resolve, reject)
+//  return new Promise(function(resolve, reject){
 // return resolve();
 //  })
 // }
