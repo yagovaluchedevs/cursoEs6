@@ -8,7 +8,7 @@
 // Agora com suas classes formatadas, adicione um método na classe Usuario chamado isAdmin que
 // retorna se o usuário é administrador ou não baseado na propriedade admin ser true ou não.
 
-class usuario {
+class usuarios {
 	constructor(email, senha) {
 		this.email = email;
 		this.senha = senha;
@@ -18,7 +18,7 @@ class usuario {
 	}
 }
 
-class admin extends usuario {
+class admin extends usuarios {
 	constructor() {
 		super();
 		this.admin = true;
